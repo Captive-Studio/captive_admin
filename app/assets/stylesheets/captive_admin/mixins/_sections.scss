@@ -1,0 +1,7 @@
+@mixin section-background {
+  background: $bg-subtle;
+
+  // heritage AA
+  @include rounded(4px);
+  @include inset-shadow(0,1px,4px, #ddd);
+}

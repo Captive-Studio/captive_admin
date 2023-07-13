@@ -1,0 +1,100 @@
+// Couleurs du nuancier Captive
+// https://www.notion.so/Nuanciers-Captive-pour-le-web-et-mobile-ee189f2db6e543e6bc7cba77c9e8dff5
+$white: #FFFFFF;
+
+$blue-grey-900: #102A43;
+$blue-grey-600: #486581;
+$blue-grey-500: #5E7997;
+$blue-grey-050: #F5F7FA;
+
+$pink-vivid-500: #D9127C;
+$pink-vivid-400: #E8368F;
+$pink-vivid-050: #FFF5F8;
+
+$light-blue-vivid-700: #1177B6;
+$light-blue-vivid-600: #188DCD;
+$light-blue-vivid-050: #F0FBFF;
+
+$lime-green-700: #507712;
+$lime-green-600: #63921A;
+$lime-green-050: #F2FDE0;
+
+$red-vivid-600: #CF1124;
+$red-vivid-500: #E12D39;
+$red-vivid-050: #FFF0F0;
+
+$yellow-vivid-800: #B44D12;
+$yellow-vivid-700: #CB6E17;
+$yellow-vivid-050: #FFFBEA;
+
+$purple-700: #421987;
+$purple-500: #653CAD;
+$purple-050: #EAE2F8;
+
+// Couleurs du Design System Captive
+// https://www.notion.so/captive/UI-Les-couleurs-du-design-system-Captive-eed4bbb0295f4d949c47e183033e5180
+
+$fg-default: $blue-grey-900;
+$fg-muted: $blue-grey-600;
+$fg-subtle: $blue-grey-500;
+$fg-onEmphasis: $white;
+
+$bg-default: $white;
+$bg-subtle: $blue-grey-050;
+$bg-emphasis: $blue-grey-900;
+
+$primary-fg: $pink-vivid-500;
+$primary-emphasis: $pink-vivid-500;
+$primary-muted: $pink-vivid-400;
+$primary-subtle: $pink-vivid-050;
+$primary-onEmphasis: $white;
+
+$accent-fg: $light-blue-vivid-700;
+$accent-emphasis: $light-blue-vivid-700;
+$accent-muted: $light-blue-vivid-600;
+$accent-subtle: $light-blue-vivid-050;
+
+$success-fg: $lime-green-700;
+$success-emphasis: $lime-green-700;
+$success-muted: $lime-green-600;
+$success-subtle: $lime-green-050;
+
+$attention-fg: $yellow-vivid-800;
+$attention-emphasis: $yellow-vivid-800;
+$attention-muted: $yellow-vivid-700;
+$attention-subtle: $yellow-vivid-050;
+
+$danger-fg: $red-vivid-600;
+$danger-emphasis: $red-vivid-600;
+$danger-muted: $red-vivid-500;
+$danger-subtle: $red-vivid-050;
+
+$support-fg: $purple-700;
+$support-emphasis: $purple-700;
+$support-muted: $purple-500;
+$support-subtle: $purple-050;
+
+
+// Espacements
+// Cf https://www.notion.so/captive/UI-Espacement-du-Design-System-Captive-cc192b02b57d453fa0da9fdc6d1234c2
+$spacer-0: 0;
+$spacer-1: 4px;
+$spacer-2: 8px;
+$spacer-3: 12px;
+$spacer-4: 16px;
+$spacer-5: 24px;
+$spacer-6: 32px;
+$spacer-7: 48px;
+$spacer-8: 64px;
+$spacer-9: 96px;
+$spacer-10: 128px;
+$spacer-11: 192px;
+$spacer-12: 256px;
+
+
+// Fonts
+// https://www.notion.so/captive/Typographie-Captive-85c60f5a849f4adaacaf18cc4aff2cea
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Barlow:wght@400;600&display=swap');
+
+$default-font-family: "Open Sans", -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+$title-font-family: "Barlow", -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;

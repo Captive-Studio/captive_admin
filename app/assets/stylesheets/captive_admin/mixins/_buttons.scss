@@ -1,0 +1,14 @@
+@mixin primary-button {
+  background-color: $primary-emphasis;
+  background-image: none;
+  color: $primary-onEmphasis;
+  border: none;
+  text-shadow: none;
+
+  &:not(.disabled) {
+    &:hover{
+      background-color: $primary-muted;
+      background-image: none;
+    }
+  }
+}
