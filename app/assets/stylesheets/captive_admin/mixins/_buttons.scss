@@ -16,6 +16,7 @@
   //End default AA style
   padding: $spacer-2 $spacer-4;
   transition: background-color .3s;
+  box-shadow: $shadow-xs;
 }
 @mixin primary-button {
   background-color: $primary-emphasis;
@@ -23,10 +24,16 @@
   color: $primary-onEmphasis;
   border: none;
   text-shadow: none;
+  box-shadow: $shadow-s;
 
   &:not(.disabled) {
     &:hover{
       background-color: $primary-muted;
+      background-image: none;
+    }
+
+    &:active {
+      box-shadow: $shadow-xs;
       background-image: none;
     }
   }
