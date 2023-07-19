@@ -4,6 +4,7 @@
 table.index_table {
   @include shadow-xs;
   border-radius: $border-radius-s;
+  overflow: hidden;
 
   th {
     a, a:link, a:visited {
@@ -15,27 +16,8 @@ table.index_table {
       border-bottom: 2px solid $border-color-emphasis;
     }
 
-    &:first-child {
-      border-top-left-radius: $border-radius-s;
-    }
-
     &:last-child {
       border-right: none;
-      border-top-right-radius: $border-radius-s;
-    }
-  }
-
-  tr {
-    &:last-child {
-      td {
-        &:first-child {
-          border-bottom-left-radius: $border-radius-s;
-        }
-
-        &:last-child {
-          border-bottom-right-radius: $border-radius-s;
-        }
-      }
     }
   }
 
